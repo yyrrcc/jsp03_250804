@@ -1,0 +1,215 @@
+/* header */
+
+header {
+  /* background-color: rgb(144, 146, 255); */
+  height: 100px;
+  position: relative;
+}
+
+#logo {
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header > ul {
+  position: relative;
+  top: 10px;
+  left: 750px;
+}
+header > ul > li {
+  margin: 20px 5px 0px 0px;
+}
+
+/* nav */
+
+nav {
+  background-image: url("../assets/images/main_menu_bg.png");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 20px;
+  left: 200px;
+}
+
+nav > ul > li {
+  margin: 10px 50px 50px 50px;
+}
+
+header > nav > ul > li > a,
+header > nav > ul > li > a:visited {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav > nav > ul > li > a:hover {
+  color: black;
+}
+
+/* aside */
+#asideandmain {
+  display: flex;
+}
+
+aside {
+  margin: 0px 10px;
+  width: 186px;
+}
+
+aside > ul > li > a,
+aside > ul > li > a:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.asi1art1,
+.asi1art2 {
+  background-color: #f3f3f3;
+  border: 1px #dddddd solid;
+  border-radius: 10%;
+  /* margin: 20px 10px 10px 10px; */
+  margin-top: 20px;
+  padding: 10px;
+  display: block;
+}
+
+#loginlogo {
+  width: 100px;
+}
+
+#userId,
+#userPw {
+  border: 1px #dddddd solid;
+  width: 95px;
+  height: 20px;
+  margin: 1px 0px 1px 0px;
+  float: left;
+}
+
+#btn_login {
+  width: 55px;
+  float: right;
+  margin-top: -30px;
+}
+
+#btn_join,
+#btn_search {
+  height: 15px;
+}
+
+.sub_menu {
+  background-image: url("../assets/images/sub_menu_bg.png");
+  background-repeat: no-repeat;
+  height: 186px;
+  height: 320px;
+  margin-top: 15px;
+}
+.sub_menu > div {
+  padding: 100px 0px 0px 0px;
+}
+.sub_menu ul {
+  display: inline;
+}
+.sub_menu ul li {
+  margin: 0px 10px 20px 40px;
+}
+.sub_menu ul li a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.banners {
+  margin-top: 10px;
+  border: 1px #dddddd solid;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #dddddd;
+}
+
+/* main */
+main {
+  width: 750px;
+}
+
+main h2#board_title {
+  border-bottom: 1px #bbbbbb solid;
+  margin-top: 20px;
+  padding: 0 0 5px 5px;
+}
+
+main #total_search {
+  height: 35px;
+  position: relative;
+}
+main #total {
+  position: absolute;
+  top: 10px;
+}
+main #search {
+  position: absolute;
+  left: 450px;
+}
+main #search #search_img {
+  position: absolute;
+  top: 8px;
+}
+main #search #search_select {
+  position: absolute;
+  top: 7px;
+  left: 60px;
+}
+main #search #search_input {
+  position: absolute;
+  top: 7px;
+  left: 130px;
+}
+main #search #search_input input {
+  width: 100px;
+}
+main #search #search_btn {
+  position: absolute;
+  top: 6px;
+  left: 240px;
+}
+
+main table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+main table tr {
+  height: 30px;
+}
+
+main table th {
+  background-color: #dddddd;
+  border-top: 2px #bbbbbb solid;
+}
+main table td {
+  border-bottom: 1px #bbbbbb solid;
+}
+
+.col2 {
+  text-align: left;
+}
+
+.col2 > a,
+.col2 > a:visited {
+  text-decoration: none;
+  color: #444444;
+}
+.col2 > a:hover {
+  text-decoration: underline;
+}
+
+#btns {
+  margin-top: 20px;
+}
+.btn_col1 {
+  float: left;
+  margin-left: 300px;
+}
+.btn_col2 {
+  float: right;
+  margin-right: 10px;
+}

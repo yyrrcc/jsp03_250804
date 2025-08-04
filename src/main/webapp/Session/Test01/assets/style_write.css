@@ -1,0 +1,32 @@
+main table {
+  margin-bottom: 10px;
+}
+main table tr th {
+  font-size: 12pt;
+}
+.td1 {
+  border-right: 1px #cccccc solid;
+  width: 20%;
+  font-weight: bold;
+}
+.td2 {
+  text-align: left;
+  padding: 10px;
+}
+#w_name {
+  border: 1px #00ba34 solid;
+  height: 16px;
+}
+#w_title {
+  width: 550px;
+  height: 16px;
+}
+#w_textarea {
+  width: 550px;
+  height: 150px;
+}
+#w_file {
+  width: 200px;
+  height: 16px;
+  margin-right: 10px;
+}

@@ -1,0 +1,173 @@
+/* header */
+
+header {
+  /* background-color: rgb(144, 146, 255); */
+  height: 100px;
+  position: relative;
+}
+
+#logo {
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+header > ul {
+  position: relative;
+  top: 10px;
+  left: 750px;
+}
+header > ul > li {
+  margin: 20px 5px 0px 0px;
+}
+
+/* nav */
+
+nav {
+  background-image: url("../assets/images/main_menu_bg.png");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 20px;
+  left: 200px;
+}
+
+nav > ul > li {
+  margin: 10px 50px 50px 50px;
+}
+
+nav > ul > li > a,
+a:visited {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav > ul > li > a:hover {
+  color: black;
+}
+
+/* aside */
+#asideandmain {
+  display: flex;
+}
+
+aside {
+  margin: 0px 10px;
+  width: 180px;
+}
+
+.asi1art1,
+.asi1art2 {
+  background-color: #f3f3f3;
+  border: 1px #dddddd solid;
+  border-radius: 10%;
+  /* margin: 20px 10px 10px 10px; */
+  margin-top: 20px;
+  padding: 10px;
+  display: block;
+}
+
+#loginlogo {
+  width: 100px;
+}
+
+#userId,
+#userPw {
+  border: 1px #dddddd solid;
+  width: 95px;
+  height: 20px;
+  margin: 1px 0px 1px 0px;
+  float: left;
+}
+
+#btn_login {
+  width: 55px;
+  float: right;
+  margin-top: -30px;
+}
+
+#btn_join,
+#btn_search {
+  height: 15px;
+}
+
+.asi1art2 {
+  box-shadow: 2px 2px 5px #dddddd;
+}
+.asi1art2 > ul {
+  list-style-image: url("../assets/images/icon_blue.gif");
+  display: inline;
+}
+.asi1art2 > ul > li {
+  margin: 5px 0px 0px 30px;
+}
+
+/* main */
+
+main {
+  /* background-color: lightcoral; */
+  width: 750px;
+  /* height: 600px; */
+}
+
+main section article {
+  padding: 5px;
+}
+
+main section {
+  position: relative;
+}
+.sec1art1,
+.sec1art2 {
+  width: 370px;
+  /* padding: 5px; */
+  margin-bottom: 15px;
+}
+
+.sec1art3 {
+  width: 360px;
+  /* padding: 5px; */
+  position: absolute;
+  top: 0px;
+  left: 385px;
+}
+
+#bach {
+  margin: 10px 50px;
+}
+
+.sec1art1div1 {
+  display: flex;
+}
+
+.ul1 {
+  display: inline;
+}
+
+.book_pen,
+.ul1 {
+  margin: 10px 10px 0 10px;
+}
+
+.imgs {
+  width: 600px;
+  padding: 30px 60px;
+  border: 1px #dddddd solid;
+  border-radius: 5%;
+  display: inline-flex;
+  box-shadow: 2px 2px 5px #dddddd;
+}
+.img1 {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.more1 {
+  margin-left: 245px;
+}
+.more2 {
+  margin-left: 235px;
+}
+.more3 {
+  margin-left: 205px;
+}

@@ -1,0 +1,47 @@
+/* common */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  color: #444444;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+#wrap {
+  width: 1200px;
+  margin: auto;
+}
+
+/* footer */
+
+footer {
+  border-top: 2px #dddddd solid;
+  margin-top: 20px;
+  width: 950px;
+  position: relative;
+}
+
+.footer {
+  /* display: flex; */
+  margin: 20px 0 0 0;
+}
+.footer_logo {
+  position: absolute;
+  left: 200px;
+}
+.footer_info {
+  position: absolute;
+  left: 400px;
+}
+.sites {
+  float: right;
+  margin-right: 20px;
+}

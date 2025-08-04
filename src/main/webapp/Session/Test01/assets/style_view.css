@@ -1,0 +1,45 @@
+main {
+  width: 758px;
+  float: right;
+}
+main h2#board_title {
+  border-bottom: 0px #bbbbbb solid;
+  margin-top: 20px;
+  padding: 0 0 5px 5px;
+}
+main .view_title {
+  border-top: 2px #aaaaaa solid;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin-top: 10px;
+}
+.sp1info {
+  margin-left: 270px;
+}
+.view_content {
+  padding: 20px;
+}
+.view_comment {
+  background-color: #efefef;
+  height: 112px;
+  border-top: 1px #cccccc solid;
+  margin-bottom: 20px;
+  position: relative;
+}
+#title_comment {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.view_comment textarea {
+  width: 520px;
+  height: 80px;
+  position: absolute;
+  top: 15px;
+  left: 150px;
+}
+#ok_ripple {
+  position: absolute;
+  top: 15px;
+  left: 675px;
+}
